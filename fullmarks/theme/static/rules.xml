@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules
+    xmlns="http://namespaces.plone.org/xdv"
+    xmlns:css="http://namespaces.plone.org/xdv+css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+    <!-- Head: title -->
+    <replace theme="/html/head/title" content="/html/head/title"/>
+
+    <!-- global -->
+    <replace theme="/html/head/base" content="/html/head/base"/>
+    
+    <!-- Nav replacement -->
+    <replace css:theme="#nav" css:content="#nav"/>
+
+    <!-- replace the whole body -->
+    <replace css:theme="#content" css:content="#content"/>
+
+    <replace css:theme="a#banner" css:content="a#banner" />
+
+    <copy css:theme="#doormat" css:content="#doormat-container > *"/>
+
+</rules>
+
