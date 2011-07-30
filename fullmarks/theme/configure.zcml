@@ -10,5 +10,6 @@
   <include file="skins.zcml" />
   <include file="profiles.zcml" />
   <i18n:registerTranslations directory="locales" />
-
+  
+  <plone:static directory="static" type="theme" />
 </configure>
