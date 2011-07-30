@@ -1,0 +1,667 @@
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1em;
+    border-bottom: none;
+}
+
+legend {
+    background: transparent;
+}
+
+p {
+    max-width: 770px;
+}
+
+p img {
+    max-width: 750px;
+}
+
+table {
+    margin-bottom: 1em;
+}
+
+table.wide-table {
+    width: 100%;
+}
+table.wide-table td {
+    padding-left: 0; 
+}
+
+th {
+    padding: 0.5em 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+td { 
+    padding: 0.5em;
+    vertical-align: top;
+}
+
+#visual-portal-wrapper {
+  background: #aaaaaa;
+  width: 980px;
+  margin: 0px auto 0px auto;
+  border: 1px solid black;
+}
+
+.documentDescription {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.form-actions-top {
+    padding-bottom: 1em;
+}
+
+.hidden {
+    display: none;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-padding hr {
+    padding: 0;
+    margin: 0;
+}
+
+hr.section {
+    height: 2px;
+}
+
+.state-final {
+    font-weight: bold;
+}
+
+.state-draft {
+    color: green;
+}
+
+div#login-bar {
+    float: right;
+    padding-right: 1.5em;
+    margin-top: -10px; 
+    height: 19px;
+}
+div#login-bar a {
+    color: white;
+    font-family: Sans-serif;
+    font-size: 120%;
+}
+
+div#portal-topbar {
+    line-height: 83px;
+    background: #ffffff url('wood.jpg');
+    padding: 0;
+    margin: 0;
+}
+
+div#fullmarks-logo {
+    padding: 25px 0px 10px 84px;
+    width: 400px;
+}
+
+div#tabs {
+    width:100%;
+    background:transparent url('the_white_stripe.jpg') repeat-x bottom;
+    text-align:right;
+    font-family: Sans-serif;
+    font-size: 120%;
+    margin-top: -15px; 
+    line-height: 31px;
+    height: 31px;
+    left: 0px;
+}
+
+#tabs ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    float:right;
+}
+
+#tabs li {
+    float:left;
+    margin:0;
+    padding:0;
+    height: 31px;
+}
+
+#tabs a {
+    display:block;
+    padding: 5px 15px;
+    color: white;
+    text-decoration:none;
+}
+
+#tabs li.current,
+#tabs li.hover {
+    background: url('tab_right.gif') no-repeat right top;
+}
+
+#tabs li.current a,
+#tabs a.hover {
+    background: url('tab_left.gif') no-repeat left top;
+}
+
+div#homepage-top {
+    height: 264px;
+    background:#ffffff url('watch_book_blue_bar.jpg');
+}
+
+div#homepage-topbuttons {
+    padding:200px 0px 0px 480px;
+    text-align: center;
+}
+
+div#homepage-bigbuttons {
+    padding:10px 0 10px 0;
+    background:#ffffff;
+    text-align:center;
+}
+div#homepage-bigbuttons a {
+    margin: 2em;
+}
+
+#sign-up-now {
+    padding-left:16px;
+}
+
+div#nav-top {
+    height: 126px;
+    background:#ffffff url('fullmarks_about.jpg');
+}
+
+div#nav-top-questions {
+    height: 126px;
+    background:#ffffff url('fullmarks_questions.jpg');
+}
+
+div#nav-top-reports {
+    height: 126px;
+    background:#ffffff url('fullmarks_reports.jpg');
+}
+
+div#nav-top-classlists {
+    height: 126px;
+    background:#ffffff url('fullmarks_classlists.jpg');
+}
+
+.section-assessmentfolder div#nav-top {
+    background:#ffffff url('fullmarks_classlists.jpg');
+}
+
+div#nav-top-tests {
+    height: 126px;
+    background:#ffffff url('fullmarks_new_test.jpg');
+}
+
+div#sub-nav {
+    background: #ffffff url('sub_nav.png') repeat-x;
+    padding-left: 5.5em;
+    font-size:120%;
+}
+
+div#sub-nav ul{
+    margin:0;
+    list-style-image:none;
+    list-style-type:none;
+    padding: 18px 10px 20px 0px;
+}
+
+div#sub-nav ul li.active{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+    font-weight:bold;
+    color:black;
+}
+
+div#sub-nav ul li{
+    display: inline;
+    padding: 10px 10px 10px 10px;
+}
+
+div#sub-nav a.selected {
+    color: black;
+}
+div#sub-nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+div#portal-column-content {
+    margin:0;
+    padding:5px 2px 0px 2px;
+    background:#ffffff;
+}
+
+div#content_pane {
+    background: #ffffff url('body_content_gradient.png') repeat-x;
+    font-size:11px;
+    font-weight:normal;
+    color:#333333;
+    padding: 10px 6.3em 0px 6em;
+    min-height: 400px;
+}
+
+div#region-content {
+    background: transparent;
+}
+
+div#portal-footer {
+    background: #ffffff url('footer_gradient.png') repeat-x;
+    height:91px;
+    margin: 0px;
+    padding:0px;
+    color: #848484;
+    font-size: 14px;
+    font-family: Sans-serif;
+    font-weight: normal;
+}
+
+div#portal-footer img {
+    vertical-align: text-bottom;
+}
+
+div#portal-footer div {
+    margin-top: 13px;
+}
+
+/* Test List styles start */
+.testslist {
+    width: 100%;
+}
+
+.testslist th a {
+    text-decoration: none;
+    color: black;
+
+}
+.testslist th {
+    white-space: nowrap;
+}
+.testslist th,
+.testslist td.center {
+    text-align: left;
+    padding-left: 0.5em;
+}
+/* Test List styles end */
+
+/* Create Test styles start */
+form#assessmentbank-create-test-form .searchfield-header {
+  display: inline-block;
+  float: left;
+  clear: left;
+  width: 150px;
+}  
+
+form#assessmentbank-create-test-form .searchfield-select {
+  border: solid 1px #333333;
+  color: #666666;
+  min-width: 320px;
+} 
+/* Create Test styles end */
+
+/* Test View styles start */
+div#test-view-pdf-links {
+    float: right;
+    margin-top: 1em;
+    margin-right: 15em;
+    text-align: center;
+}
+
+div#memo-pdf {
+    float: right;
+    padding: 1em;
+}
+div#test-pdf {
+    float: left;
+    padding: 1em;
+}
+
+td.move-button {
+    width:50px;
+}
+
+.popup {
+    position:absolute;
+    background: #ffffff;
+    border:1px solid black;
+    padding:5px;
+}
+/* Test View styles end */
+
+div#rate-message {
+    text-align: center;
+    padding: 0.5em;
+    border: 2px solid red;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    white-space: nowrap;
+}
+
+table#test-view {
+    width: 100%;
+}
+
+table#test-view th {
+    width: 1%;
+    white-space: nowrap;
+}
+
+table#test-view td.pdf-download {
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Classlist create styles start */
+/* This is generic, since it is used for formlib forms */
+div#formfield-form-title div.widget input {
+    width:320px;
+}
+
+/* Classlist create styles end */
+
+/* Classlist edit styles start */
+#classlist-edit-form th,
+#classlist-add-learner-form th {
+    text-align: center;
+}
+
+#classlist-edit-form select {
+    margin-left: 2px;
+}
+
+#classlist-save {
+    margin-left: 5px;
+}
+
+#classlist-title {
+    width: 175px;
+    margin-right: 10px;
+}
+
+#classlist-add-learner-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#classlist-add-learner-form table {
+    border-top: dashed 1px #cccccc;
+    padding-top: 10px;
+}
+
+#classlist-learners-form table {
+    padding-left: 0.5em;
+    padding-bottom: 10px;
+}
+
+#classlist-learners-form input[type="submit"] {
+    margin-left: 0.5em;
+}
+
+.classlist-odd {
+    background-color: #fbfbfb;
+}
+
+.even {
+    background-color: #efefef;
+}
+
+.classlist-code {
+   width: 50px;
+   padding-left:5px;
+   padding-right:5px;
+}
+
+.classlist-name {
+   width: 100px;
+   padding-left:5px;
+   padding-right:5px;
+}
+
+.classlist-gender {
+   width: 100px;
+   padding-left:5px;
+   padding-right:5px;
+   text-align: center;
+}
+
+.classlist-language {
+   width: 100px;
+   padding-left:5px;
+   padding-right:5px;
+   text-align: center;
+}
+
+/* Classlist edit styles end */
+
+/* Formatting table used on class lists page start */
+table#classlistfolder-view-table {
+    margin-top: 10px;
+}
+
+table#classlistfolder-view-table tr th {
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+    text-align: left;
+}
+
+table#classlistfolder-view-table tr td {
+    padding: 0px 8px 4px 0px;
+}    
+
+table#classlistfolder-view-table tr td a {
+    font-size: 12px;
+}    
+/* Formatting table used on class lists page end */
+
+/* Default button style */
+/* we duplicate this rule for IE6 compatibility who does not yet
+   understand CЅS3 selectors 
+*/
+input[type=submit] {
+    background-color: #eeeeee;
+    background-image: none;
+    border: solid 1px #999999;
+    font-family:Arial !important;
+    font-size: 11px !important;
+    text-transform: none;
+    min-width: 72px;
+    padding: 1px 5px 1px 5px;
+}
+button.standalone, .standalone, .context {
+    background-color: #eeeeee;
+    background-image: none;
+    border: solid 1px #999999;
+    font-family:Arial !important;
+    font-size: 11px !important;
+    text-transform: none;
+    min-width: 72px;
+    padding: 1px 5px 1px 5px;
+}
+
+/* Default anchor style */
+a {
+    color: #3B5998;
+}
+
+/* Default paragraph style */
+p {
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+/* Style the marks view */
+span.learner_absent input[type="submit"] {
+    float: right;
+    background-color: red;
+}
+
+span.learner_present input[type="submit"] {
+    float: right;
+}
+
+/* Stats on home page */
+div#sub-nav li.subnav_title { 
+    color: #848484; 
+    font-size: 12px;
+}
+div#sub-nav span.numbers { 
+    color: #518d06; 
+    font-size: 13px;
+}
+
+/* Links in footer */
+div#portal-footer-links { 
+    margin-top: 4px;
+}    
+
+div#portal-footer-links a { 
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #848484;
+}    
+
+/* Search table style */
+table.search-table tr th {
+    font-weight: normal;
+    text-align: left;
+}    
+
+.listingBar {
+    background-color: #b5e8ec;
+    border: 1px solid #499ca0;
+    font-size: 100%;
+}
+
+.listingBar .current {
+    font-weight: bold;
+    font-size: 120%;
+}
+
+div.rating {
+    float: right;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+}
+
+div.result-item-actions {
+    text-align: left;
+    padding-top: 0em;
+}
+
+div.result-section-actions {
+    text-align: left;
+}
+
+div.result-item-actions-left {
+    float: left;
+}
+
+div.result-item-actions-right {
+    float: right;
+}
+
+a.test {
+    text-decoration: underline;
+}
+
+/* Assessment Item view styles */
+.field {
+    clear: none;
+}
+
+#item {
+    padding: 0;
+}
+
+#assessmentitem-metadata {
+    width: 25%;
+}
+
+#assessmentitem-metadata label {
+    white-space: nowrap;
+    display: block;
+}
+
+#item label {
+    padding: 0.5em 0;
+    display: block;
+}
+
+/* rate item styles */
+table#rate-items {
+    width: 100%;
+}
+
+table#rate-items label {
+    padding: 0.5em 0;
+    display: block;
+}
+
+table#rate-items .answer p, #rich_text_options li p {
+    display:inline;
+}
+
+/* Copied from ploneKss.css */
+#kss-spinner {
+    display:none;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    background-position: center center;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+/* Strength weaknesses report */
+table.sw_report_td {
+    width: 100%;
+    border: 0;
+    margin: 2;
+    padding: 5;
+}
+
+table.sw_report td {
+    vertical-align:top;
+    width: 25%;
+    text-align:center;
+    font-weight:bold;
+}
+
+table.sw_report tr.incorrect {
+    vertical-align:top;
+    background-color:red;
+    width: 25%;
+}
+
+/* hovertip styling */
+.hovertip {
+    display:none;
+    position:absolute;
+    width:400px;
+    background:#dddddd;
+    border:1px solid #bbbbbb;
+    padding:12px;
+}
+
+img.rating-star {
+    margin-left: -3px;
+}
+
+img.kss-vote {
+    cursor: pointer;
+}
+
+#portal-footer-links,
+#rights {
+    margin-left: 88px;
+}
